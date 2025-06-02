@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@iconify/json": "^2.2.342",
+    "@iconify/tailwind4": "^1.0.6",
     "vite": "^6.3.5"
   },
   "dependencies": {
