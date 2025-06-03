@@ -14,11 +14,23 @@
 
     
     <div class="bg-green-400 WeaponsShop">
-      <div class="">
+      <div>
 
-        <img src="src/images/Kunai.jpg" alt="weapon1">
+        <button class="cursor-pointer" onclick="buyKunai()">
+
+          <img src="src/images/Kunai.jpg" alt="weapon1">
+
+          <h2>Kunai</h2>
+          <p id="klevel">Level 00</p>
+          <p>Cost:100 DMG</p>
+
+        </button>
 
       </div>
+
+
+
+      <div></div>
         <div>
 
           <button class="cursor-pointer">Buy weapons here,no strings attached.</button>
@@ -46,13 +58,19 @@
       <p>hfhhhf</p>
       <div class="mt-[20%]">
         
-        <img src="/src/images/buddy-the-dummy.jpg" alt="main enemy">
-        <button class="cursor-pointer">boss zone</button>
+        <button class="cursor-pointer"  onclick="changePoint(1)">
+
+          <img src="/src/images/buddy-the-dummy.jpg" alt="main enemy">
+
+        </button>
+        <div id="pointCounter" class="cursor-pointer ">Built 
+
+      
       </div>
 
-    </div>
+  </div>
   </main>
-  <script type="module" src="/src/main.js"></script>
+  <script src="/src/main.js"></script>
 
   <div>
 
