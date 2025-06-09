@@ -1,4 +1,4 @@
-let points = 1000
+let points = 100000
 
 let pointCounter = document.getElementById("pointCounter")
 
@@ -28,5 +28,16 @@ function buyKunai(){
          alert("get ur dmg up not ur money up ")
            
 }
+
+}
+
+
+
+
+function bigClick(){
+         let basePoint = 1 + (kunaiLevel ** 1.05)
+
+         changePoint(basePoint)
+
 
 }
